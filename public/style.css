@@ -1,0 +1,44 @@
+#form {
+    width: calc(100vw - 1vh);
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: absolute;
+    bottom: 2vh;
+}
+
+#msgInput {
+    width: 50vw;
+    flex-grow: 0.4;
+    border-radius: 10px;
+    margin-right: 1vw;
+}
+
+#sendBtn {
+    min-width: 3vw;
+    width: auto;
+    font-family: inherit;
+    padding: 1vh;
+    flex-grow: 0.1;
+}
+
+#messages{
+    max-height: 88vh;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 68vw;
+    position: absolute;
+    left: 12vw;
+    overflow:hidden; 
+    overflow-y:scroll;
+}
+
+#messages > li{
+    padding: 0.5rem 1rem;
+    font-family: Verdana, Geneva;
+}
+
+#messages > li:nth-child(odd){ 
+    background: #efefef; 
+}

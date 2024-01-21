@@ -1,0 +1,16 @@
+{
+  "name": "socketchatapp",
+  "version": "0.1.0",
+  "description": "simple socket.io chat app",
+  "main": "index.js",
+  "author": "Ayudh",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2",
+    "socket.io": "^4.7.4",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7"
+  }
+}
