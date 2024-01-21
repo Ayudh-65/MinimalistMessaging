@@ -1,2 +1,2 @@
 # MinimalistMessaging
-Simple messaging application based on SocketIO and Express.js
+Real-time messaging application based on SocketIO and Express.js
